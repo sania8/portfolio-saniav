@@ -102,13 +102,31 @@
 }
 
 .work__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers items */
+  gap: 20px; /* Reduce space between items */
+  max-width: 900px; /* Controls overall width */
+  margin: auto; /* Centering the container */
 }
+.work__img1, .work__img2, .work__img3, .work__img4 {
+  width: 100%; /* Ensures it fits in mobile view */
+  max-width: 400px; /* Controls container width */
+  background: #f4f4f4; /* Light background */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .work__img1, .work__img2, .work__img3, .work__img4 {
+    max-width: 90%; /* Ensures it doesn’t exceed screen size */
+    padding: 10px; /* Reduce padding */
+  }
+  .work__container {
+    gap: 10px; /* Reduce spacing between elements */
+  }
+}
+
 
 .work__img {
     background: linear-gradient(135deg, #ffffff, #f0f4f8);
@@ -561,7 +579,7 @@ img {
 .skills__content {
 
   text-align: center;
-  width: 600px;
+  width: 500px;
 }
 
 
