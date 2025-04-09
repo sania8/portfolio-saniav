@@ -4,7 +4,7 @@ Welcome to website portfolio repository! This project showcases my skills, proje
 
 ## 🚀 Explore My Website
 
-🔗 [(https://sania8.github.io/portfolio-main/)] to explore my portfolio and learn more about me!
+🔗 [([https://sania8.github.io/portfolio-main/](https://sania8.github.io/portfolio-saniav/))] to explore my portfolio and learn more about me!
 
 ## 📁 Repository Structure
 
